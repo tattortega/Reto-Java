@@ -1,4 +1,4 @@
-package com.sofka.game.utilities.error;
+package com.sofka.game.utilities;
 
 public class Exception extends RuntimeException{
     public Exception(String message) {
