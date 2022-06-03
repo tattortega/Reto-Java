@@ -17,7 +17,7 @@ public class PlayerDAO extends Conection implements IGame {
 
     @Override
     public void listQuestion() {
-
+        
     }
 
     @Override
