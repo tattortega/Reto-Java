@@ -5,6 +5,7 @@ import lombok.Data;
 @Data
 public class Question {
     private String nameQuestion;
-    private String categorie;
+    private Category category;
+    private Integer level;
 
 }
