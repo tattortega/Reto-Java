@@ -4,8 +4,9 @@ import lombok.Data;
 
 @Data
 public class Question {
+
+    private Integer identify;
     private String nameQuestion;
-    private Category category;
-    private Integer level;
+    private String category;
 
 }
