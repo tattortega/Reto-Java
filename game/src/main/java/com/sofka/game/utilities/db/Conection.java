@@ -1,4 +1,4 @@
-package com.sofka.game.utilities.DB;
+package com.sofka.game.utilities.db;
 
 import com.mongodb.ConnectionString;
 import com.mongodb.MongoClientSettings;
