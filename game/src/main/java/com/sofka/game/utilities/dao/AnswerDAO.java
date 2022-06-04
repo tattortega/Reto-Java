@@ -29,10 +29,7 @@ public class AnswerDAO extends Conection implements IAnswer {
         for (Answer q: answers.find()) {
             if (q.getQuestion().equals(question)) {
                 for (Object r: q.getOption()) {
-                    System.out.println("r"+r);
-                    System.out.println("q"+q.getAnswerCorrect());
                     if (r.equals(q.getAnswerCorrect())){
-                        System.out.println("entra"+ aux);
                         if (aux.equals(optionChoice)){
                             return true;
                         }
