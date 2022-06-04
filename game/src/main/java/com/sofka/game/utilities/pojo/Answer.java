@@ -13,5 +13,5 @@ public class Answer {
     private ArrayList option;
     private Integer question;
     private String answerCorrect;
-    private boolean status;
+    private Boolean status;
 }

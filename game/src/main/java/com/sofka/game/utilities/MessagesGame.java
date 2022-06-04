@@ -19,7 +19,7 @@ public class MessagesGame {
     }
 
     public void showOptions() {
-        logger.info("Digite una opción: \n1 \n2 \n3 \n4");
+        logger.info("Digite la opción correcta: ");
     }
 
     public void incorrectChoice() {
@@ -30,5 +30,19 @@ public class MessagesGame {
         logger.info("La opción elegida es correcta");
     }
 
+    public void showPoints() {
+        logger.info("Tu puntaje es: ");
+    }
+
+    public void showNameCategory(String category) {
+        logger.info("Categoría: "+ category);
+    }
+    public void showLevelGame(int level) {
+        logger.info("Nivel del juego: "+ level);
+    }
+
+    public void showMessage(String message) {
+        logger.info(message);
+    }
 
 }
