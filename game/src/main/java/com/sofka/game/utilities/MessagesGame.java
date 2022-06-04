@@ -2,6 +2,14 @@ package com.sofka.game.utilities;
 
 import org.jboss.logging.Logger;
 
+/**
+ * Clase MessagesGame para mostrar mensajes en consola
+ *
+ * @author Ricardo Ortega <tattortega.28@gmail.com>
+ * @author John Acevedo <jhedacro@gmail.com>
+ * @version 1.0.0 2022/06/03
+ * @since 1.0.0
+ */
 public class MessagesGame {
 
     private static final Logger logger = Logger.getLogger(MessagesGame.class);
@@ -31,7 +39,7 @@ public class MessagesGame {
     }
 
     public void optionChoice() {
-        logger.info("Elije una opción: \n 1. JUGAR \n 2. VER HISTORIAL\n 3.SALIR");
+        logger.info("Elige una opción: \n 1. JUGAR \n 2. VER HISTORIAL\n 3. SALIR");
     }
 
     public void showPoints(int score) {
@@ -55,9 +63,9 @@ public class MessagesGame {
         logger.info("""
                 ***************************************************\s
                 ************** FELICITACIONES *********************\s
-                ********** HAZ TERMINADO EL JUEGO CON EXITO *******\s
+                ********** HAZ TERMINADO EL JUEGO CON ÉXITO *******\s
                 ***************************************************\s""");
-        logger.info(userName +" Tu puntaje fue "+ score);
+        logger.info(userName +" tu puntaje fue "+ score);
 
     }
 
